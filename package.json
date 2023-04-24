@@ -1,0 +1,17 @@
+{
+  "name": "cli-live-chart",
+  "version": "1.1.0",
+  "description": "This package provides a means to have a real-time chart which can update on various events, such as arduino sensor data stream, websocket event, http event and others",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["chart","cli","live"],
+  "author": "Dragos Circa",
+  "license": "MIT",
+  "dependencies": {
+    "asciichart": "1.5.25",
+    "log-update": "5.0.1"
+  }
+}
